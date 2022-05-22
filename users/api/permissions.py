@@ -1,4 +1,5 @@
-rom rest_framework import permissions
+from rest_framework import permissions
+
 
 class UpdateOwnProfile(permissions.BasePermission):
     '''Permite usuario editar su perfil'''

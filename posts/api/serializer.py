@@ -1,7 +1,7 @@
 from unicodedata import category
 from rest_framework import serializers
 from posts.models import Post
-from users.api.serializer import UserSerializer
+from users.api.serializers import UserSerializer
 from categories.api.serializer import CategorySerializer
 
 

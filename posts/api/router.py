@@ -4,4 +4,4 @@ from posts.api.views import PostAPIViewSet
 
 router_posts = DefaultRouter()
 
-router_posts.register(prefix='posts',basename='posts',viewset=PostAPIViewSet)
+router_posts.register(prefix='posts', basename='posts', viewset=PostAPIViewSet)
