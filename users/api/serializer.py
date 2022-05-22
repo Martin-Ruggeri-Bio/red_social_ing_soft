@@ -4,7 +4,7 @@ from users.models import User
 class UserRegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id','email','username','password']
+        fields = ['id','email','password']
     
     def create(self, validate_data):
         password = validate_data.pop('password',None)

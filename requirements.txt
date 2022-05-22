@@ -1,0 +1,9 @@
+autopep8
+Django
+django-cors-headers
+django-filter
+djangorestframework
+drf-yasg
+swagger-ui-py
+djangorestframework-simplejwt
+Pillow
