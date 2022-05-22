@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'django_filters',
     'drf_yasg',
     'users',
-    'categories',
     'posts',
     'comments',
 ]
